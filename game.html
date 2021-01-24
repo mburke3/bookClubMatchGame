@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Love Match Game</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id='main'>
+    <h1>Maximizing a Night Out</h1>
+    <form id="partyForm">
+      <label for="selectParty">Whose party are we going to?</label>
+      <select id="selectParty"></select>
+    </form>
+    <div id="container"></div>
+   <div id="clear">
+    <form id="voteForm">
+      <label for="selectVoter">Who is Voting?</label>
+      <select id="selectVoter"></select> </br>
+      <label for="0">First Choice</label>
+      <select id="0"></select>
+      <label for="1">Second Choice</label>
+      <select id="1"></select>
+      <label for="2">Third Choice</label>
+      <select id="2"></select>
+      <label for="3">Fourth Choice</label>
+      <select id="3"></select>
+      <label for="4">Fifth Choice</label>
+      <select id="4"></select>
+      <label for="5">Last Choice</label>
+      <select id="5"></select>
+      <button type="button"  id="castVote">Set Ranking</button>
+    </form>
+    <button type="button" id="seeResults">See Results</button>
+    </div>
+    </div>
+    <div id="myModal"  class="modal">
+      <span class="close">&times;</span>
+      <p>Tonight's couples!</p>
+      <div id="results"></div>
+    </div>
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/script.js"></script>
+  </body>
+</html>
